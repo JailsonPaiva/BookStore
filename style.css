@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
 }
 
 header {
@@ -257,4 +257,107 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #ffffff;
+}
+
+/* ############## MELHORES LIVROS ###################  */
+
+.containerMelhores {
+    height: 550px;
+    padding: 0 1rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* border: 1px solid; */
+}
+
+.listaMelhores {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.tituloMelhores h1 {
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.tituloMelhores span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.livroMelhores {
+    width: 20%;
+    height: 400px;
+    padding: 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.5);
+    /* border: 1px solid; */
+}
+
+.livroMelhores img {
+    width: 130px;
+    height: 200px;
+}
+
+.descricaoMelhores {
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descricaoMelhores h4 {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.descricaoMelhores span {
+    margin: -5px 0;
+    font-size: 16px;
+}
+
+.descricaoMelhores a {
+    width: 12rem;
+    height: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    color: #000000;
+
+    border-radius: 30px;
+
+    background: #5DE472;
+    transition: .3s ease-in;
+}
+
+.descricaoMelhores a:hover {
+    background: none;
+    border: 2px solid #5DE472;
+}
+
+.descricaoMelhores i {
+   color: #F2E205;
+}
+
+.descricaoMelhores i span {
+   margin-left: 5px;
+    color: #000;
 }

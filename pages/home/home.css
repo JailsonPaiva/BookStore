@@ -160,7 +160,7 @@ header {
     align-items: center;
     justify-content: center;
 
-    background: url(assets/book12.jpg) fixed;
+    background: url(../../assets/book12.jpg) fixed;
 }
 
 .livros {

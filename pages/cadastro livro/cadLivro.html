@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadLivro.css">
+    <title>Cadastro Livro</title>
+</head>
+<body>
+
+    <div class="bgHeade"></div>
+
+    <h1>Cadastro de Livros</h1>
+
+    <form class="cadLivro">
+        <label for="nomeLivro">
+            Nome do Livro
+            <input type="text" name="nomeLivro" id="nomeLivro" placeholder="Nome do Livro">
+        </label>
+
+        <label for="categoria">
+            Categoria
+            <input type="text" name="categoria" id="categoria" placeholder="Digite a categoria do livro">
+        </label>
+
+        <label for="valor">
+            R$
+            <input type="number" name="valor" id="valor" placeholder="Digite o valor do livro">
+        </label>
+
+        <label for="imgLivro" class="imgLivro">
+            Image do Livro 
+            <input type="file" name="imgLivro" id="imgLivro">
+        </label>
+        <button>Cadastrar</button>
+    </form>
+    
+</body>
+</html>
